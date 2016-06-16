@@ -20,7 +20,7 @@ module Text.XML.HaXml.DtdToHaskell.TypeDef
 
 import Data.Char (isLower, isUpper, toLower, toUpper, isDigit)
 import Data.List (intersperse)
-import Text.PrettyPrint.HughesPJ
+import Text.PrettyPrint.String
 
 
 ---- Internal representation for typedefs ----

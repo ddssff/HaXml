@@ -33,7 +33,7 @@ import Data.Char (isSpace)
 import Text.XML.HaXml.Types
 import Text.XML.HaXml.Namespaces
 import Text.XML.HaXml.Combinators
-import qualified Text.PrettyPrint.HughesPJ as Pretty
+import qualified Text.PrettyPrint.String as Pretty
 
 ---- Constructor functions
 

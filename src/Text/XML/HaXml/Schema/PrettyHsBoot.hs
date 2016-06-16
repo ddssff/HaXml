@@ -14,7 +14,7 @@ import Text.XML.HaXml.Types (QName(..),Namespace(..))
 import Text.XML.HaXml.Schema.HaskellTypeModel
 import Text.XML.HaXml.Schema.XSDTypeModel (Occurs(..))
 import Text.XML.HaXml.Schema.NameConversion
-import Text.PrettyPrint.HughesPJ as PP
+import Text.PrettyPrint.String as PP
 
 import Data.List (intersperse,notElem,inits)
 import Data.Maybe (isJust,fromJust,catMaybes)

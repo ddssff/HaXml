@@ -25,7 +25,7 @@ import Prelude hiding (maybe,either)
 import Data.Maybe hiding (maybe)
 import Data.List (intersperse)
 --import Char (isSpace)
-import Text.PrettyPrint.HughesPJ
+import Text.PrettyPrint.String
 import Text.XML.HaXml.Types
 import Text.XML.HaXml.Namespaces
 

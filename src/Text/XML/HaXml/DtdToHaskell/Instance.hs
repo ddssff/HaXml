@@ -5,7 +5,7 @@ module Text.XML.HaXml.DtdToHaskell.Instance
 import Data.List (intersperse)
 
 import Text.XML.HaXml.DtdToHaskell.TypeDef
-import Text.PrettyPrint.HughesPJ
+import Text.PrettyPrint.String
 
 -- | Convert typedef to appropriate instance declaration, either @XmlContent@,
 --   @XmlAttributes@, or @XmlAttrType@.
