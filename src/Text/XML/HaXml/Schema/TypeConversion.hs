@@ -416,7 +416,7 @@ convert env s = concatMap item (schema_items s)
     choiceOrSeq (XSD.All      ann eds)   = error "not yet implemented: XSD.All"
     choiceOrSeq (XSD.Choice   ann o ees) = [ OneOf (anyToEnd
                                                      (map elementEtc ees))
-+                                                  (occursToModifier o)
+                                                   (occursToModifier o)
                                                    (comment ann) ]
     choiceOrSeq (XSD.Sequence ann _ ees) = concatMap elementEtc ees
 
